@@ -50,8 +50,8 @@ my_set=set([])
 for i in df6.index:
     my_set.add(df6['Branches'][i]) 
 src="KRTF"
-dest="DELB"
-src1="BDQB"
+dest="GAUB"
+src1="AMDB"
 dest1="JAIB"
 src2="KRTF"
 dest2="IXCB"
