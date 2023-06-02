@@ -50,10 +50,10 @@ my_set=set([])
 for i in df6.index:
     my_set.add(df6['Branches'][i]) 
 src="KRTF"
-dest="DELB"
-src1="BDQB"
-dest1="JAIB"
-src2="KRTF"
+dest="GAUB"
+src1="AMDB"
+dest1="LUHB"
+src2="LUHB"
 dest2="IXCB"
 origin_lat0=(float)(df6[df6['Branches']==src].lat)
 origin_long0=(float)(df6[df6['Branches']==src].long)
