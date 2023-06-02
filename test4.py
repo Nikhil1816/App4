@@ -52,8 +52,8 @@ for i in df6.index:
 src="KRTF"
 dest="GAUB"
 src1="AMDB"
-dest1="JAIB"
-src2="KRTF"
+dest1="LUHB"
+src2="LUHB"
 dest2="IXCB"
 origin_lat0=(float)(df6[df6['Branches']==src].lat)
 origin_long0=(float)(df6[df6['Branches']==src].long)
